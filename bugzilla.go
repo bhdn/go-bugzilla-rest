@@ -333,8 +333,6 @@ type PostAttachment struct {
 	IsObsolete     int        `json:"is_obsolete,omitempty"`
 	IsPatch        int        `json:"is_patch,omitempty"`
 	IsPrivate      int        `json:"is_private,omitempty"`
-	CreationTime   *time.Time `json:"creation_time,omitempty"`
-	LastChangeTime *time.Time `json:"last_change_time,omitempty"`
 	ContentType    string     `json:"content_type,omitempty"`
 	Summary        string     `json:"summary,omitempty"`
 	Filename       string     `json:"file_name,omitempty"`
